@@ -1,0 +1,82 @@
+body {
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/* toggle modes */
+
+.light-mode {
+    background-color: #fff;
+    color: #111827;
+}
+
+.dark-mode {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+/* set layout */
+
+div {
+    max-width: 37.5em;
+    margin: 1.5em auto;
+    padding: .25em;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1em auto;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+input {
+    --web-appearance: none;
+    --moz-appearance: none;
+    appearance: none;
+    width: 4.75em;
+    height: 4.25em;
+    padding: .25em;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#mode-selector,
+#mode-selector option {
+    font-size: 1rem;
+    padding: .75em .5em;
+    border-radius: 0.275em;
+    background-color: transparent;
+    color: #fff;
+}
+
+#mode-selector option {
+    background-color: #1F2937;
+}
+
+#btn-generate {
+    background-color: #3D4B60;
+    border-radius: 0.275em;
+    color: #fff;
+    padding: .75em 1.25em;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+/* color display */
+
+
+
