@@ -60,6 +60,7 @@ input {
     border-radius: 0.275em;
     background-color: transparent;
     color: #fff;
+    cursor: pointer;
 }
 
 #mode-selector option {
@@ -78,5 +79,20 @@ input {
 
 /* color display */
 
+.colors-wrapper {
+    display: flex;
+}
 
+.color-box {
+    width: 10em;
+    height: 50em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.hex-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
