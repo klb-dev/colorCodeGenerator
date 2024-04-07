@@ -106,5 +106,7 @@ h2 {
 
 p {
     margin: 0 auto 1em;
+    cursor: pointer;
 }
+
 

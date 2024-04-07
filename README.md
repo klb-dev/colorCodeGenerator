@@ -9,6 +9,7 @@ This project included using fetch() for getting information from [The Color API]
 - I created pseudocode (generic regular language to try and see how a program should run). My head thought it was correct and then when I got to the project, I realized the logic was good but I did not produce it into the DOM. 
 - Using multiple functions is something I need to get better with and know where and how to implement them. Some I created but was unsure how to include them within the program. Trial and error. 
 - My hardest part with JS is not the logic of how functions and classes should work, but the DOM. It is a step I continually forget and then I am frustrated. Fingers crossed I will get better with this step and it becomes second nature.
+- Trying to figure out how to copy the code to the clipboard (stretch goal), was challenging. I realized I needed to use 'navigator.clipboard.writeText()'. I implemented it inside my getColors(). Utilized MDN to figure out Notification - asking for permission and then if granted will display the notification that the hex was copied.
 # RESOURCES
 - [Mozilla Document Network (MDN)](https://developer.mozilla.org/en-US/) is a community of developers that help other developers. Being new it is easy for me to understand the syntax of each language with MDN.
 - [Geeks for Geeks](https://www.geeksforgeeks.org/) is an organization to help further learning on new trends.

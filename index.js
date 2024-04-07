@@ -17,6 +17,7 @@ function getColors(colorSelector, modeSelector) {
             const hex = document.createElement('p');
             hex.innerText = color.hex.value;
             hexWrapper.appendChild(hex);
+            hex.addEventListener('click', copyText)
         })
     });
     clearColors();
@@ -32,4 +33,20 @@ function generateColorScheme() {
 function clearColors() {
     colorsWrapper.innerHTML = '';
     hexWrapper.innerHTML = '';
+}
+
+function copyText(e) {
+    if(!'Notification' in window) {
+        alert('Your browser does not support notifications');
+    } else {
+        Notification.requestPermission().then(function(permission) {
+            if(permission === 'granted') {
+                const text = e.target.innerText;
+                navigator.clipboard.writeText(text);
+                new Notification('Copied to clipboard', {
+                    body: `Copied ${text} to clipboard`
+                });
+            }
+        });
+    }
 }
