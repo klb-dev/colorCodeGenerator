@@ -97,3 +97,14 @@ input {
     align-items: center;
 }
 
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 50%;
+}
+
+p {
+    margin: 0 auto 1em;
+}
+
