@@ -22,8 +22,8 @@ body {
 div {
     max-width: 37.5em;
     margin: 1.5em auto;
-    padding: .25em;
-    height: 90vh;
+    padding: .5em;
+    height: 100%;
 }
 
 h1 {
@@ -81,11 +81,12 @@ input {
 
 .colors-wrapper {
     display: flex;
+    gap: .25em;
 }
 
 .color-box {
     width: 10em;
-    height: 50em;
+    height: 30em;
     border-radius: .5em;
     cursor: pointer;
 }
